@@ -7,10 +7,9 @@ Install the required libraries first, refer to the 'Reference'.
 After that, you can use this template to start you project with 'raylib'.
 
 ```console
-$ cd build_src
-$ clang -o nob nob_static.c
+$ clang -o nob nob.c
 $ ./nob
-$ ../main
+$ ./bin/main
 ```
 
 ## Reference
