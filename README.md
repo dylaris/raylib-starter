@@ -1,15 +1,15 @@
 # raylib-starter
 
+A template to start 'raylib' project on **windows** and **linux**.
+
 ## Usage
 
-Install the required libraries first, refer to the 'Reference'.
-
-After that, you can use this template to start you project with 'raylib'.
+You might be missing graphics dependencies such as GLFW. Follow the compilation prompts to install them.
 
 ```console
-$ clang -o nob nob.c
+$ gcc -o nob nob.c
 $ ./nob
-$ ./bin/main
+$ ./main
 ```
 
 ## Reference
