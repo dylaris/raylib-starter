@@ -4,13 +4,11 @@
 
 #ifdef _WIN32
     #define PLATFORM "win"
-    #define RAYLIB_DIR "raylib/raylib-5.5_win64_mingw-w64/"
-    #define RAYLIB_DLL "raylib.dll"
+    #define RAYLIB_DIR "../raylib/raylib-5.5_win64_mingw-w64/"
     #define CC "gcc"
 #else
     #define PLATFORM "linux"
-    #define RAYLIB_DIR "raylib/raylib-5.5_linux_amd64/"
-    #define RAYLIB_DLL "libraylib.so"
+    #define RAYLIB_DIR "../raylib/raylib-5.5_linux_amd64/"
     #define CC "gcc"
 #endif
 

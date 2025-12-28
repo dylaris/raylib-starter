@@ -2,14 +2,24 @@
 
 A template to start 'raylib' project on **windows** and **linux**.
 
-## Usage
+## Quick Start
 
 You might be missing graphics dependencies such as GLFW. Follow the compilation prompts to install them.
 
+- C
 ```console
+$ cd c
 $ gcc -o nob nob.c
 $ ./nob
 $ ./main
+```
+
+- Zig
+Only support linux now
+```console
+$ cd zig
+$ zig build -Dstatic=true
+$ ./zig-out/bin/main
 ```
 
 ## Reference

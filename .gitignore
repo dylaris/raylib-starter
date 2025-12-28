@@ -1,9 +1,10 @@
-nob.exe
-nob.exe.old
+c/nob.exe
+c/nob.exe.old
+c/nob
+c/nob.old
+c/raylib.dll
+c/main
 
-nob
-nob.old
-
-raylib.dll
-
-main
+zig/zig-out
+zig/main
+zig/.zig-cache
